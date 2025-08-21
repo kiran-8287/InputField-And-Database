@@ -2,7 +2,7 @@
 
 A modern, accessible React component library built with TypeScript, featuring beautiful light/dark themes and comprehensive testing.
 
-[LIvE DEMO](https://kiran-8287.github.io/InputField-And-Database/)
+[LIVE DEMO](https://kiran-8287.github.io/InputField-And-Database/)
 
 ## 🎯 **Deliverables Status**
 
