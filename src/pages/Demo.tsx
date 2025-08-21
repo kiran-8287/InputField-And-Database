@@ -290,6 +290,7 @@ const Demo: React.FC = () => {
                   data={demoUsers}
                   columns={userColumns}
                   selectable={true}
+                  selectedRows={selectedUsers}
                   onRowSelect={setSelectedUsers}
                   className="shadow-sm"
                 />
