@@ -164,25 +164,6 @@ function DataTable<T extends Record<string, any>>({
     );
   };
 
-  // Loading skeleton
-  const LoadingSkeleton = () => (
-    <div className="animate-pulse">
-      {Array.from({ length: 3 }).map((_, index) => (
-        <div key={index} className="table-row">
-          {selectable && (
-            <div className="table-cell">
-              <div className="w-4 h-4 bg-gray-200 dark:bg-gray-700 rounded"></div>
-            </div>
-          )}
-          {columns.map((column) => (
-            <div key={column.key} className="table-cell">
-              <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-3/4"></div>
-            </div>
-          ))}
-        </div>
-      ))}
-    </div>
-  );
 
   return (
     <div className={`table-container ${className}`}>
